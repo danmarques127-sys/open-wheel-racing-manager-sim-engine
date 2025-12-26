@@ -33,3 +33,5 @@ UIElementsSchema/
 
 # Optional local tooling config
 .vsconfig
+# TMP Examples (optional)
+Assets/TextMesh Pro/Examples & Extras/
