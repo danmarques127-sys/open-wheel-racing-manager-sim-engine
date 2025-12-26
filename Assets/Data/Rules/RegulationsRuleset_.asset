@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41308715a80b604f83c00b940ff59f4, type: 3}
+  m_Name: RegulationsRuleset_
+  m_EditorClassIdentifier: Assembly-CSharp::F1Manager.Core.World.RegulationsRuleset
+  seasonYear: 2026
+  engineEraId: 2026-hybrid-active-aero
+  budgetCapMillions: 140
+  costOfLivingMultiplier: 1
+  pointsRuleset: {fileID: 11400000, guid: 8a90362bedfc8854287cfeb22df48dd1, type: 2}
+  calendarRules:
+    allowedRounds: 0a0000001000000018000000
+    minDaysBetweenRounds: 7
+    maxDaysBetweenRounds: 21
+    allowSprint: 1
+    sprintChance: 0.25
+  parcFermeSimplified: 1
+  gridPenaltiesEnabled: 1
+  maxAeroUpgradesPerYear: 12
+  maxChassisUpgradesPerYear: 6
+  maxPUUpgradesPerYear: 4
+  minRetirementAge: 33
+  hardRetirementAge: 45
+  baseRetirementChancePerYear: 0.03

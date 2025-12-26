@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+
+  <ui:VisualElement class="root">
+
+    <ui:Style src="TeamSelect.uss" />
+
+    <!-- (Opcional) Se você tiver RenderTexture de vídeo no UI Toolkit -->
+    <!-- <ui:VisualElement class="video-bg" name="videoBg" /> -->
+    <ui:VisualElement class="video-overlay" />
+
+    <ui:VisualElement class="panel">
+
+      <!-- HEADER (igual MainMenu) -->
+      <ui:VisualElement class="header">
+        <ui:VisualElement class="header-left">
+          <ui:Image class="logo" name="logoImg" />
+          <ui:VisualElement class="brand-stack">
+            <ui:Label text="F1 MANAGER" class="brand-title" />
+            <ui:Label text="TEAM SELECTION" class="brand-subtitle" />
+          </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="header-right">
+          <ui:VisualElement class="status-chip live">
+            <ui:VisualElement class="status-dot" />
+            <ui:Label text="CHOOSE TEAM" class="status-text" />
+          </ui:VisualElement>
+        </ui:VisualElement>
+      </ui:VisualElement>
+
+      <ui:VisualElement class="divider" />
+
+      <!-- HERO (titulo/subtitulo) -->
+      <ui:VisualElement class="hero">
+        <ui:VisualElement class="hero-left">
+          <ui:Label text="Choose your team" class="hero-title" />
+          <ui:Label text="Select a team to view full profile (history, titles, drivers, contracts)." class="hero-subtitle" />
+        </ui:VisualElement>
+      </ui:VisualElement>
+
+      <!-- LISTA (menu) -->
+      <ui:ScrollView name="teamsList" class="menu" />
+
+      <!-- FOOTER -->
+      <ui:VisualElement class="footer">
+        <ui:VisualElement class="footer-left">
+          <ui:Button name="btnBack" text="Back" class="btn-secondary" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="footer-right">
+          <ui:Label text="© 2026 • Team Select" class="footer-text" />
+        </ui:VisualElement>
+      </ui:VisualElement>
+
+    </ui:VisualElement>
+
+  </ui:VisualElement>
+
+</ui:UXML>

@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 4024bd5ac33bdee419e88d4fb5500a65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 166915540348838730
+    second: cadillac_0
+  - first:
+      213: -3120681827305178638
+    second: cadillac_1
+  - first:
+      213: 4893061854315317276
+    second: cadillac_2
+  - first:
+      213: 3526753448856424153
+    second: cadillac_3
+  - first:
+      213: -8684900809535093203
+    second: cadillac_4
+  - first:
+      213: -8152701524181903309
+    second: cadillac_5
+  - first:
+      213: -8367159669823331749
+    second: cadillac_6
+  - first:
+      213: 5021378248527795161
+    second: cadillac_7
+  - first:
+      213: -6268156909954784783
+    second: cadillac_8
+  - first:
+      213: -1726347190814205270
+    second: cadillac_9
+  - first:
+      213: -625707547033707297
+    second: cadillac_10
+  - first:
+      213: 920422394477407210
+    second: cadillac_11
+  - first:
+      213: 3963576460576855766
+    second: cadillac_12
+  - first:
+      213: -7987873427670170774
+    second: cadillac_13
+  - first:
+      213: -3366481170390232456
+    second: cadillac_14
+  - first:
+      213: 4379772548837166225
+    second: cadillac_15
+  - first:
+      213: -634904757004062233
+    second: cadillac_16
+  - first:
+      213: 8340744124854499871
+    second: cadillac_17
+  - first:
+      213: -8056652064298392601
+    second: cadillac_18
+  - first:
+      213: 1373645346225865842
+    second: cadillac_19
+  - first:
+      213: 8281279044136915845
+    second: cadillac_20
+  - first:
+      213: 5938225630692133433
+    second: cadillac_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cadillac_0
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 366
+        width: 561
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a432cf1bcc0015200800000000000000
+      internalID: 166915540348838730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 217
+        width: 106
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f93572896c11b4d0800000000000000
+      internalID: -3120681827305178638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 219
+        width: 113
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c188a7af4d5a7e340800000000000000
+      internalID: 4893061854315317276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 219
+        width: 101
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de8871839b81f030800000000000000
+      internalID: 3526753448856424153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_4
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 219
+        width: 17
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2688227ab8097780800000000000000
+      internalID: -8684900809535093203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_5
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 219
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3381a5b9829cbde80800000000000000
+      internalID: -8152701524181903309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_6
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 219
+        width: 93
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52a4358c90e1eb80800000000000000
+      internalID: -8367159669823331749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_7
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 219
+        width: 114
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d35f52a9e48fa540800000000000000
+      internalID: 5021378248527795161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_8
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 217
+        width: 106
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f12cb120880309a0800000000000000
+      internalID: -6268156909954784783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 131
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa96846068ca08e0800000000000000
+      internalID: -1726347190814205270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_10
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 129
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc56c51d4a0157f0800000000000000
+      internalID: -625707547033707297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 131
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebe32a8a4ff5cc00800000000000000
+      internalID: 920422394477407210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_12
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 130
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d698cc7ac3710730800000000000000
+      internalID: 3963576460576855766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_13
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 129
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6300f8607f552190800000000000000
+      internalID: -7987873427670170774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_14
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 131
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87259df363bd741d0800000000000000
+      internalID: -3366481170390232456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_15
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 131
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c427a9de318cc30800000000000000
+      internalID: 4379772548837166225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_16
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 131
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e13194cc7d5037f0800000000000000
+      internalID: -634904757004062233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_17
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 161
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1af064279640c370800000000000000
+      internalID: 8340744124854499871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_18
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 131
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3a39c22a5013090800000000000000
+      internalID: -8056652064298392601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_19
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 130
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274492d1a2b201310800000000000000
+      internalID: 1373645346225865842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_20
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 130
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583daaf1a630de270800000000000000
+      internalID: 8281279044136915845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cadillac_21
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 131
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a4681cfb0d86250800000000000000
+      internalID: 5938225630692133433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cadillac_0: 166915540348838730
+      cadillac_1: -3120681827305178638
+      cadillac_10: -625707547033707297
+      cadillac_11: 920422394477407210
+      cadillac_12: 3963576460576855766
+      cadillac_13: -7987873427670170774
+      cadillac_14: -3366481170390232456
+      cadillac_15: 4379772548837166225
+      cadillac_16: -634904757004062233
+      cadillac_17: 8340744124854499871
+      cadillac_18: -8056652064298392601
+      cadillac_19: 1373645346225865842
+      cadillac_2: 4893061854315317276
+      cadillac_20: 8281279044136915845
+      cadillac_21: 5938225630692133433
+      cadillac_3: 3526753448856424153
+      cadillac_4: -8684900809535093203
+      cadillac_5: -8152701524181903309
+      cadillac_6: -8367159669823331749
+      cadillac_7: 5021378248527795161
+      cadillac_8: -6268156909954784783
+      cadillac_9: -1726347190814205270
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

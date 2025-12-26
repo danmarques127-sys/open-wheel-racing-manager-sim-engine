@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed4d14188667114592ec23fb20af672, type: 3}
+  m_Name: Track_spain_barcelona
+  m_EditorClassIdentifier: Assembly-CSharp::F1Manager.Data.TrackData
+  trackId: spain_barcelona
+  trackName: Circuit de Barcelona-Catalunya
+  country: Spain
+  city: Barcelona
+  timezoneId: Europe/Madrid
+  type: 1
+  lapLengthKm: 4.657
+  laps: 66
+  weekendFormat: 0
+  sprintLapsOverride: 0
+  tireWear: 2
+  rainChance: 15
+  safetyCarChance: 25
+  vscChance: 20
+  redFlagChance: 3
+  pitLaneTimeLossSec: 22
+  pitStopBaseSec: 2.2
+  pitStopVarSec: 0.35
+  overtakeAid: 1
+  overtakingEase: 0.5
+  overtakeAidStrength: 1
+  overtakeZones: 2
+  difficulty: 7
+  asphaltAbrasiveness: 1.25
+  trackGripBase: 1
+  trackEvolutionRate: 0.84999996
+  kerbAggression: 0.75
+  powerSensitivity: 0.5
+  aeroSensitivity: 0.79999995
+  brakeSeverity: 0.55
+  tyreEnergy: 0.79999995
+  coolingDifficulty: 0.59999996
+  avgAirTempC: 26
+  trackTempBiasC: 12
+  altitudeMeters: 100
+  corners: 14
+  slowCorners: 5
+  mediumCorners: 6
+  fastCorners: 3
+  longestStraightMeters: 1050
+  bumpiness: 0.25
+  tireProfiles:
+  - compound: 0
+    expectedLifeLaps: 24
+    lifeVarianceLaps: 2
+    paceDeltaSec: 0.6
+    warmupRate: 0.85
+    degradationRate: 0.85
+    minRainPercent: 0
+    maxRainPercent: 20
+  - compound: 1
+    expectedLifeLaps: 18
+    lifeVarianceLaps: 2
+    paceDeltaSec: 0
+    warmupRate: 1
+    degradationRate: 1
+    minRainPercent: 0
+    maxRainPercent: 20
+  - compound: 2
+    expectedLifeLaps: 12
+    lifeVarianceLaps: 2
+    paceDeltaSec: -0.55
+    warmupRate: 1.25
+    degradationRate: 1.25
+    minRainPercent: 0
+    maxRainPercent: 15
+  - compound: 3
+    expectedLifeLaps: 16
+    lifeVarianceLaps: 3
+    paceDeltaSec: 1.1
+    warmupRate: 1.1
+    degradationRate: 1.05
+    minRainPercent: 15
+    maxRainPercent: 70
+  - compound: 4
+    expectedLifeLaps: 14
+    lifeVarianceLaps: 3
+    paceDeltaSec: 2.1
+    warmupRate: 1.05
+    degradationRate: 1.1
+    minRainPercent: 55
+    maxRainPercent: 100

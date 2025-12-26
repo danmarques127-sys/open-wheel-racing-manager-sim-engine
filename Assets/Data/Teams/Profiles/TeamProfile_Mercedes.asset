@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e4845c8e346a74289c1010fd7fbaee, type: 3}
+  m_Name: TeamProfile_Mercedes
+  m_EditorClassIdentifier: Assembly-CSharp::TeamProfileData
+  teamId: mercedes
+  teamName: Mercedes-AMG PETRONAS F1 Team
+  teamLogo: {fileID: 9144628881829155083, guid: 0509c19af9ec0374dbbd8fee2004a8a6, type: 3}
+  primaryColor: {r: 0, g: 0.8235294, b: 0.74509805, a: 1}
+  secondaryColor: {r: 0.06666667, g: 0.06666667, b: 0.06666667, a: 1}
+  themeIntensity: 0.85
+  shortHistory: "Mercedes traces its motorsport roots to the Silver Arrows of the
+    1930s, but its modern Formula One team was established in 2010 after acquiring
+    Brawn GP. Headquartered in Brackley, United Kingdom, Mercedes redefined Formula
+    One during the hybrid era through unmatched power unit innovation and operational
+    precision. The team achieved an unprecedented eight consecutive Constructors\u2019
+    Championships (2014\u20132021). Its most iconic driver is Lewis Hamilton, who
+    secured six world titles with Mercedes, becoming the most successful driver in
+    Formula One history. The Mercedes W11 (2020) is considered one of the most dominant
+    cars ever produced, showcasing superior aerodynamics, engine performance, and
+    race pace. Mercedes\u2019 legacy is built on engineering discipline, data-driven
+    excellence, and sustained dominance at the highest level of the sport."
+  constructorsTitles: 8
+  driversTitles: 9
+  currentDrivers:
+  - {fileID: 11400000, guid: e1ae594710ccc174e872a1b5837e63cc, type: 2}
+  - {fileID: 11400000, guid: 4b5403f094923464089aec6c7aba6b50, type: 2}

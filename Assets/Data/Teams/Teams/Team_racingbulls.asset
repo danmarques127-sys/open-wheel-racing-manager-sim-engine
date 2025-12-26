@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d5c3a0eca2ee74783a542e2ec49610, type: 3}
+  m_Name: Team_racingbulls
+  m_EditorClassIdentifier: Assembly-CSharp::TeamData
+  teamId: racingbulls
+  displayName: Visa Cash App Racing Bulls Formula One Team
+  shortName: Racing Bulls
+  primaryColor: {r: 1, g: 1, b: 1, a: 1}
+  startingBudgetMillions: 245
+  hqLevel: 3
+  aeroDepartment: 3
+  powerUnitDept: 3
+  strategyTeam: 3
+  aero: 50
+  powerUnit: 50
+  chassis: 50
+  reliability: 50
+  aero2026:
+    downforceLowSpeed: 48
+    downforceMediumSpeed: 48
+    downforceHighSpeed: 46
+    dragEfficiency: 80
+    aeroEfficiency: 84
+    dirtyAirResistance: 79
+    activeAeroEfficiency: 84
+    activeAeroResponseTime: 82
+    activeAeroStability: 82
+  powerUnit2026:
+    icePower: 87
+    iceEfficiency: 86
+    fuelEfficiency: 87
+    mguKPower: 87
+    mguKEfficiency: 86
+    mguKHeatControl: 85
+    energyHarvestRate: 86
+    energyDeployRate: 86
+    energyStorageCapacity: 85
+    energyManagementAI: 85
+    ersModeFlexibility: 85
+    modeSwitchingSpeed: 83
+    driverCarSynchronization: 85
+  chassis2026:
+    mechanicalGrip: 85
+    suspensionQuality: 84
+    chassisStiffness: 83
+    weightDistribution: 84
+    brakingStability: 84
+    traction: 85
+  systems2026:
+    coolingEfficiency: 84
+    coolingReliability: 85
+    thermalControl: 84
+    controlSystems: 84
+  reliability2026:
+    overallReliability: 85
+    iceReliability: 85
+    mguKReliability: 85
+    ersReliability: 85
+    activeAeroReliability: 84
+    gearboxReliability: 85
+    electronicsReliability: 85
+  country: Italy
+  baseCity: Faenza

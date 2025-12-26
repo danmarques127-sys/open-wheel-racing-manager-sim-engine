@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed4d14188667114592ec23fb20af672, type: 3}
+  m_Name: Track_qatar_lusail
+  m_EditorClassIdentifier: Assembly-CSharp::F1Manager.Data.TrackData
+  trackId: qatar_lusail
+  trackName: Lusail International Circuit
+  country: Qatar
+  city: Lusail
+  timezoneId: Asia/Qatar
+  type: 1
+  lapLengthKm: 5.419
+  laps: 57
+  weekendFormat: 0
+  sprintLapsOverride: 0
+  tireWear: 2
+  rainChance: 5
+  safetyCarChance: 20
+  vscChance: 15
+  redFlagChance: 2
+  pitLaneTimeLossSec: 22
+  pitStopBaseSec: 2.2
+  pitStopVarSec: 0.35
+  overtakeAid: 1
+  overtakingEase: 0.45
+  overtakeAidStrength: 1
+  overtakeZones: 2
+  difficulty: 7
+  asphaltAbrasiveness: 1.2
+  trackGripBase: 1.05
+  trackEvolutionRate: 0.8
+  kerbAggression: 0.65
+  powerSensitivity: 0.5
+  aeroSensitivity: 0.84999996
+  brakeSeverity: 0.55
+  tyreEnergy: 0.79999995
+  coolingDifficulty: 0.75
+  avgAirTempC: 25
+  trackTempBiasC: 10
+  altitudeMeters: 20
+  corners: 16
+  slowCorners: 3
+  mediumCorners: 7
+  fastCorners: 6
+  longestStraightMeters: 1060
+  bumpiness: 0.25
+  tireProfiles:
+  - compound: 0
+    expectedLifeLaps: 24
+    lifeVarianceLaps: 2
+    paceDeltaSec: 0.6
+    warmupRate: 0.85
+    degradationRate: 0.85
+    minRainPercent: 0
+    maxRainPercent: 20
+  - compound: 1
+    expectedLifeLaps: 18
+    lifeVarianceLaps: 2
+    paceDeltaSec: 0
+    warmupRate: 1
+    degradationRate: 1
+    minRainPercent: 0
+    maxRainPercent: 20
+  - compound: 2
+    expectedLifeLaps: 12
+    lifeVarianceLaps: 2
+    paceDeltaSec: -0.55
+    warmupRate: 1.25
+    degradationRate: 1.25
+    minRainPercent: 0
+    maxRainPercent: 15
+  - compound: 3
+    expectedLifeLaps: 16
+    lifeVarianceLaps: 3
+    paceDeltaSec: 1.1
+    warmupRate: 1.1
+    degradationRate: 1.05
+    minRainPercent: 15
+    maxRainPercent: 70
+  - compound: 4
+    expectedLifeLaps: 14
+    lifeVarianceLaps: 3
+    paceDeltaSec: 2.1
+    warmupRate: 1.05
+    degradationRate: 1.1
+    minRainPercent: 55
+    maxRainPercent: 100

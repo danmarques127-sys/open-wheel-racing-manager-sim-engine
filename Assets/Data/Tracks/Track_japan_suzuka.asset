@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed4d14188667114592ec23fb20af672, type: 3}
+  m_Name: Track_japan_suzuka
+  m_EditorClassIdentifier: Assembly-CSharp::F1Manager.Data.TrackData
+  trackId: japan_suzuka
+  trackName: Suzuka Circuit
+  country: Japan
+  city: Suzuka
+  timezoneId: Asia/Tokyo
+  type: 1
+  lapLengthKm: 5.807
+  laps: 53
+  weekendFormat: 0
+  sprintLapsOverride: 0
+  tireWear: 2
+  rainChance: 35
+  safetyCarChance: 25
+  vscChance: 20
+  redFlagChance: 4
+  pitLaneTimeLossSec: 21
+  pitStopBaseSec: 2.25
+  pitStopVarSec: 0.35
+  overtakeAid: 1
+  overtakingEase: 0.45
+  overtakeAidStrength: 1.05
+  overtakeZones: 2
+  difficulty: 8
+  asphaltAbrasiveness: 1.2
+  trackGripBase: 1.05
+  trackEvolutionRate: 0.85
+  kerbAggression: 0.8
+  powerSensitivity: 0.5
+  aeroSensitivity: 0.8
+  brakeSeverity: 0.55
+  tyreEnergy: 0.75
+  coolingDifficulty: 0.5
+  avgAirTempC: 19
+  trackTempBiasC: 10
+  altitudeMeters: 50
+  corners: 18
+  slowCorners: 5
+  mediumCorners: 7
+  fastCorners: 6
+  longestStraightMeters: 1000
+  bumpiness: 0.35
+  tireProfiles:
+  - compound: 0
+    expectedLifeLaps: 24
+    lifeVarianceLaps: 2
+    paceDeltaSec: 0.6
+    warmupRate: 0.85
+    degradationRate: 0.85
+    minRainPercent: 0
+    maxRainPercent: 20
+  - compound: 1
+    expectedLifeLaps: 18
+    lifeVarianceLaps: 2
+    paceDeltaSec: 0
+    warmupRate: 1
+    degradationRate: 1
+    minRainPercent: 0
+    maxRainPercent: 20
+  - compound: 2
+    expectedLifeLaps: 12
+    lifeVarianceLaps: 2
+    paceDeltaSec: -0.55
+    warmupRate: 1.25
+    degradationRate: 1.25
+    minRainPercent: 0
+    maxRainPercent: 15
+  - compound: 3
+    expectedLifeLaps: 16
+    lifeVarianceLaps: 3
+    paceDeltaSec: 1.1
+    warmupRate: 1.1
+    degradationRate: 1.05
+    minRainPercent: 15
+    maxRainPercent: 70
+  - compound: 4
+    expectedLifeLaps: 14
+    lifeVarianceLaps: 3
+    paceDeltaSec: 2.1
+    warmupRate: 1.05
+    degradationRate: 1.1
+    minRainPercent: 55
+    maxRainPercent: 100

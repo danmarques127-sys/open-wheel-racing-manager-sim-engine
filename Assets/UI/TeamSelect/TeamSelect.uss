@@ -1,0 +1,487 @@
+/* =========================
+   ULTRA SAFE USS (Unity 6)
+   - sem multi-layer background-image
+   - sem rotate/translate/transition/cursor/box-shadow
+   ========================= */
+
+.root {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0d10;
+    position: relative;
+}
+
+/* =========================
+   VIDEO BACKGROUND (UI Toolkit)
+   ========================= */
+
+.video-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    /* Faz o RenderTexture preencher a tela */
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+/* Mais escuro pra leitura (menos transparente visualmente) */
+.video-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    /* antes: 0.18 | agora: 0.30 (mais legível) */
+    background-color: rgba(0,0,0,0.30);
+}
+
+/* opcional (se você ainda usar .bg em algum lugar) */
+.bg {
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    background-color: #07090c;
+}
+
+/* Telemetry grid ULTRA SAFE */
+.telemetry-grid {
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    opacity: 0.08;
+    background-color: rgba(255,255,255,0.03);
+}
+
+.vignette {
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.35);
+}
+
+.gloss {
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    opacity: 0.06;
+    background-color: rgba(255,255,255,0.08);
+}
+
+/* =========================
+   PANEL
+   ========================= */
+
+.panel {
+    width: 920px;
+    max-width: 92%;
+
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 28px;
+    padding-bottom: 26px;
+
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+
+    /* antes: 0.82 | agora: 0.93 (menos transparente) */
+    background-color: rgba(12, 14, 18, 0.93);
+
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+
+    /* REMOVE vermelho -> neutro */
+    border-left-color: rgba(255,255,255,0.14);
+    border-right-color: rgba(255,255,255,0.12);
+    border-top-color: rgba(255,255,255,0.14);
+    border-bottom-color: rgba(255,255,255,0.12);
+
+    flex-direction: column;
+    position: relative;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left { flex-direction: row; align-items: center; }
+
+.logo {
+    width: 92px;
+    height: 36px;
+    margin-right: 14px;
+    -unity-background-scale-mode: scale-to-fit;
+    opacity: 0.96;
+}
+
+.brand-stack { flex-direction: column; }
+
+.brand-title {
+    color: #f4f5f7;
+    font-size: 18px;
+    letter-spacing: 1.6px;
+    -unity-font-style: bold;
+}
+
+.brand-subtitle {
+    color: rgba(244,245,247,0.65);
+    font-size: 11px;
+    letter-spacing: 1.2px;
+    margin-top: 2px;
+}
+
+.header-right { flex-direction: row; align-items: center; }
+
+.status-chip {
+    flex-direction: row;
+    align-items: center;
+
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    margin-left: 10px;
+
+    border-top-left-radius: 999px;
+    border-top-right-radius: 999px;
+    border-bottom-left-radius: 999px;
+    border-bottom-right-radius: 999px;
+
+    background-color: rgba(255,255,255,0.06);
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+
+    border-left-color: rgba(255,255,255,0.12);
+    border-right-color: rgba(255,255,255,0.10);
+    border-top-color: rgba(255,255,255,0.12);
+    border-bottom-color: rgba(255,255,255,0.10);
+}
+
+/* REMOVE vermelho do LIVE: agora “cool neutral” */
+.status-chip.live {
+    background-color: rgba(255,255,255,0.08);
+    border-left-color: rgba(255,255,255,0.16);
+    border-right-color: rgba(255,255,255,0.12);
+    border-top-color: rgba(255,255,255,0.16);
+    border-bottom-color: rgba(255,255,255,0.12);
+}
+
+/* Dot neutro (antes vermelho) */
+.status-dot {
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+
+    border-top-left-radius: 99px;
+    border-top-right-radius: 99px;
+    border-bottom-left-radius: 99px;
+    border-bottom-right-radius: 99px;
+
+    background-color: rgba(244,245,247,0.92);
+}
+
+.status-text {
+    color: rgba(244,245,247,0.86);
+    font-size: 11px;
+    letter-spacing: 1.1px;
+}
+
+/* =========================
+   Divider
+   ========================= */
+
+.divider {
+    height: 1px;
+    margin-top: 18px;
+    margin-bottom: 16px;
+    background-color: rgba(255,255,255,0.08);
+}
+
+/* =========================
+   META
+   ========================= */
+
+.meta {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.meta-left, .meta-center, .meta-right { flex-direction: column; }
+
+.meta-label {
+    color: rgba(244,245,247,0.55);
+    font-size: 10px;
+    letter-spacing: 1.4px;
+}
+
+.meta-value {
+    color: rgba(244,245,247,0.92);
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-top: 2px;
+}
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+    margin-top: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+
+    /* menos transparente e mais “solid card” */
+    background-color: rgba(10, 12, 16, 0.78);
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+
+    border-left-color: rgba(255,255,255,0.12);
+    border-right-color: rgba(255,255,255,0.10);
+    border-top-color: rgba(255,255,255,0.12);
+    border-bottom-color: rgba(255,255,255,0.10);
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left { flex-direction: column; }
+
+.hero-title {
+    color: rgba(244,245,247,0.95);
+    font-size: 18px;
+    -unity-font-style: bold;
+}
+
+.hero-subtitle {
+    color: rgba(244,245,247,0.62);
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.hero-right { flex-direction: row; align-items: center; }
+
+.kpi-card {
+    width: 118px;
+    margin-left: 10px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+
+    background-color: rgba(0,0,0,0.38);
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+
+    /* REMOVE vermelho -> neutro */
+    border-left-color: rgba(255,255,255,0.12);
+    border-right-color: rgba(255,255,255,0.10);
+    border-top-color: rgba(255,255,255,0.12);
+    border-bottom-color: rgba(255,255,255,0.10);
+}
+
+.kpi-label { color: rgba(244,245,247,0.55); font-size: 10px; }
+.kpi-value { color: rgba(244,245,247,0.92); font-size: 16px; -unity-font-style: bold; margin-top: 2px; }
+
+/* =========================
+   MENU
+   ========================= */
+
+.menu { margin-top: 18px; flex-direction: column; }
+
+/* ScrollView interno (viewport/content) pra ficar ULTRA estável */
+.menu > .unity-scroll-view__viewport {
+    padding-right: 6px;
+}
+.menu > .unity-scroll-view__content-container {
+    flex-direction: column;
+}
+
+.menu-item {
+    height: 70px;
+    margin-top: 12px;
+
+    padding-left: 18px;
+    padding-right: 16px;
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+
+    /* antes: 0.04 | agora: 0.70 (bem menos transparente) */
+    background-color: rgba(10, 12, 16, 0.70);
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+
+    border-left-color: rgba(255,255,255,0.12);
+    border-right-color: rgba(255,255,255,0.10);
+    border-top-color: rgba(255,255,255,0.12);
+    border-bottom-color: rgba(255,255,255,0.10);
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* hover neutro (sem vermelho) */
+.menu-item:hover {
+    background-color: rgba(255,255,255,0.10);
+
+    border-left-color: rgba(255,255,255,0.18);
+    border-right-color: rgba(255,255,255,0.14);
+    border-top-color: rgba(255,255,255,0.18);
+    border-bottom-color: rgba(255,255,255,0.14);
+}
+
+.btn-left { flex-direction: column; justify-content: center; }
+
+.btn-text { color: rgba(244,245,247,0.95); font-size: 16px; -unity-font-style: bold; }
+.btn-subtext { color: rgba(244,245,247,0.58); font-size: 11px; margin-top: 2px; }
+
+.btn-right {
+    width: 54px;
+    height: 54px;
+
+    border-top-left-radius: 999px;
+    border-top-right-radius: 999px;
+    border-bottom-left-radius: 999px;
+    border-bottom-right-radius: 999px;
+
+    background-color: rgba(255,255,255,0.07);
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+
+    border-left-color: rgba(255,255,255,0.14);
+    border-right-color: rgba(255,255,255,0.10);
+    border-top-color: rgba(255,255,255,0.14);
+    border-bottom-color: rgba(255,255,255,0.10);
+
+    justify-content: center;
+    align-items: center;
+}
+
+/* CHEVRON */
+.chev {
+    width: 10px;
+    height: 10px;
+
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-right-color: rgba(244,245,247,0.92);
+    border-top-color: rgba(244,245,247,0.92);
+}
+
+/* =========================
+   BUTTONS (Back / padrão)
+   ========================= */
+
+Button {
+    -unity-font-style: bold;
+    font-size: 12px;
+
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+
+    background-color: rgba(255,255,255,0.07);
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+
+    border-left-color: rgba(255,255,255,0.14);
+    border-right-color: rgba(255,255,255,0.10);
+    border-top-color: rgba(255,255,255,0.14);
+    border-bottom-color: rgba(255,255,255,0.10);
+
+    color: rgba(244,245,247,0.92);
+}
+
+Button:hover {
+    background-color: rgba(255,255,255,0.10);
+
+    border-left-color: rgba(255,255,255,0.18);
+    border-right-color: rgba(255,255,255,0.14);
+    border-top-color: rgba(255,255,255,0.18);
+    border-bottom-color: rgba(255,255,255,0.14);
+}
+
+.btn-secondary {
+    background-color: rgba(255,255,255,0.06);
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.footer {
+    margin-top: 18px;
+    padding-top: 10px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left, .footer-right { flex-direction: row; align-items: center; }
+
+.footer-text { color: rgba(244,245,247,0.48); font-size: 10px; }
+.footer-text.strong { color: rgba(244,245,247,0.72); }
+
+.sep {
+    width: 1px;
+    height: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255,255,255,0.10);
+}

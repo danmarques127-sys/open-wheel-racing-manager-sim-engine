@@ -1,0 +1,916 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c85ca41028a7344945b307664f304c, type: 3}
+  m_Name: SeasonCalendar_
+  m_EditorClassIdentifier: Assembly-CSharp::F1Manager.Data.SeasonCalendar
+  seasonYear: 2026
+  weekends:
+  - round: 1
+    track: {fileID: 11400000, guid: b536b347695acf44db3f26f78a4b185b, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 2
+    track: {fileID: 11400000, guid: 75ca6ddfea62ca042a0e44aced6d90b7, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 20
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 21
+      day: 1
+      orderInDay: 2
+      enabled: 1
+    - type: 22
+      day: 1
+      orderInDay: 3
+      enabled: 1
+    - type: 23
+      day: 1
+      orderInDay: 4
+      enabled: 1
+    - type: 30
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 3
+      orderInDay: 0
+      enabled: 1
+    - type: 11
+      day: 3
+      orderInDay: 1
+      enabled: 1
+    - type: 12
+      day: 3
+      orderInDay: 2
+      enabled: 1
+    - type: 13
+      day: 3
+      orderInDay: 3
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 4
+      enabled: 1
+  - round: 3
+    track: {fileID: 11400000, guid: 6a71a1c6e1ce32c4a96c21b10bb5df5d, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 4
+    track: {fileID: 11400000, guid: 87ad77462c77a4649acd937dedba8bb6, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 5
+    track: {fileID: 11400000, guid: 2078242a92301b34ebe25ab1300a518e, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 6
+    track: {fileID: 11400000, guid: 926b49c7b9c2afc499df73f4dc85e735, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 20
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 21
+      day: 1
+      orderInDay: 2
+      enabled: 1
+    - type: 22
+      day: 1
+      orderInDay: 3
+      enabled: 1
+    - type: 23
+      day: 1
+      orderInDay: 4
+      enabled: 1
+    - type: 30
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 3
+      orderInDay: 0
+      enabled: 1
+    - type: 11
+      day: 3
+      orderInDay: 1
+      enabled: 1
+    - type: 12
+      day: 3
+      orderInDay: 2
+      enabled: 1
+    - type: 13
+      day: 3
+      orderInDay: 3
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 4
+      enabled: 1
+  - round: 7
+    track: {fileID: 11400000, guid: bbfa3b9d9cf0b7d46967f28595612be0, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 8
+    track: {fileID: 11400000, guid: 60988c3ae701e0745b2dc0a69772192d, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 9
+    track: {fileID: 11400000, guid: 9fe890c7fc8265741bbcd8fc9ce3556c, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 10
+    track: {fileID: 11400000, guid: e04e95f2ce457e049b903e4a486430d6, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 20
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 21
+      day: 1
+      orderInDay: 2
+      enabled: 1
+    - type: 22
+      day: 1
+      orderInDay: 3
+      enabled: 1
+    - type: 23
+      day: 1
+      orderInDay: 4
+      enabled: 1
+    - type: 30
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 3
+      orderInDay: 0
+      enabled: 1
+    - type: 11
+      day: 3
+      orderInDay: 1
+      enabled: 1
+    - type: 12
+      day: 3
+      orderInDay: 2
+      enabled: 1
+    - type: 13
+      day: 3
+      orderInDay: 3
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 4
+      enabled: 1
+  - round: 11
+    track: {fileID: 11400000, guid: bdee8f5323660854e80cf1c34da5c4f2, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 12
+    track: {fileID: 11400000, guid: b36b4b59ae86d864e8a31a3e7e0bc101, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 20
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 21
+      day: 1
+      orderInDay: 2
+      enabled: 1
+    - type: 22
+      day: 1
+      orderInDay: 3
+      enabled: 1
+    - type: 23
+      day: 1
+      orderInDay: 4
+      enabled: 1
+    - type: 30
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 3
+      orderInDay: 0
+      enabled: 1
+    - type: 11
+      day: 3
+      orderInDay: 1
+      enabled: 1
+    - type: 12
+      day: 3
+      orderInDay: 2
+      enabled: 1
+    - type: 13
+      day: 3
+      orderInDay: 3
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 4
+      enabled: 1
+  - round: 13
+    track: {fileID: 11400000, guid: 46611f794ebe0494ab43d805c0a143fa, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 14
+    track: {fileID: 11400000, guid: e5c9ce0b35838ee4fbe717124b0f92f4, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 15
+    track: {fileID: 11400000, guid: de48b89a5a3ba564d9c61490cf525da0, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 16
+    track: {fileID: 11400000, guid: d3718abf3d455fa45961454258ba4deb, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 17
+    track: {fileID: 11400000, guid: e4a709705520f664d9bdab30995c0b57, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 18
+    track: {fileID: 11400000, guid: a256ef60ac88f0c4c85cbfa96d8072f3, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 19
+    track: {fileID: 11400000, guid: 334d5fe95a8e8df48ad72bd566f89ffa, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 20
+    track: {fileID: 11400000, guid: 8f1bd5fe76c7ec94abeae55cb44fa7d9, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 21
+    track: {fileID: 11400000, guid: b333c1efdbf1aeb46b1edf02acb38328, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 20
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 21
+      day: 1
+      orderInDay: 2
+      enabled: 1
+    - type: 22
+      day: 1
+      orderInDay: 3
+      enabled: 1
+    - type: 23
+      day: 1
+      orderInDay: 4
+      enabled: 1
+    - type: 30
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 3
+      orderInDay: 0
+      enabled: 1
+    - type: 11
+      day: 3
+      orderInDay: 1
+      enabled: 1
+    - type: 12
+      day: 3
+      orderInDay: 2
+      enabled: 1
+    - type: 13
+      day: 3
+      orderInDay: 3
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 4
+      enabled: 1
+  - round: 22
+    track: {fileID: 11400000, guid: 212298fd4adda9445a494ac31c3e837d, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 23
+    track: {fileID: 11400000, guid: c37e39db857d8cb4ba98b657f4d0d5ac, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1
+  - round: 24
+    track: {fileID: 11400000, guid: 43658206e2563a343a07634f07c2ae79, type: 2}
+    sessions:
+    - type: 0
+      day: 1
+      orderInDay: 0
+      enabled: 1
+    - type: 1
+      day: 1
+      orderInDay: 1
+      enabled: 1
+    - type: 2
+      day: 2
+      orderInDay: 0
+      enabled: 1
+    - type: 10
+      day: 2
+      orderInDay: 1
+      enabled: 1
+    - type: 11
+      day: 2
+      orderInDay: 2
+      enabled: 1
+    - type: 12
+      day: 2
+      orderInDay: 3
+      enabled: 1
+    - type: 13
+      day: 2
+      orderInDay: 4
+      enabled: 1
+    - type: 40
+      day: 3
+      orderInDay: 0
+      enabled: 1

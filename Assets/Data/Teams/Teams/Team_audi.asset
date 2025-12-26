@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d5c3a0eca2ee74783a542e2ec49610, type: 3}
+  m_Name: Team_audi
+  m_EditorClassIdentifier: Assembly-CSharp::TeamData
+  teamId: audi
+  displayName: Audi Revolut F1
+  shortName: Audi
+  primaryColor: {r: 1, g: 1, b: 1, a: 1}
+  startingBudgetMillions: 280
+  hqLevel: 4
+  aeroDepartment: 4
+  powerUnitDept: 4
+  strategyTeam: 3
+  aero: 50
+  powerUnit: 50
+  chassis: 50
+  reliability: 50
+  aero2026:
+    downforceLowSpeed: 48
+    downforceMediumSpeed: 48
+    downforceHighSpeed: 46
+    dragEfficiency: 78
+    aeroEfficiency: 82
+    dirtyAirResistance: 76
+    activeAeroEfficiency: 82
+    activeAeroResponseTime: 80
+    activeAeroStability: 80
+  powerUnit2026:
+    icePower: 86
+    iceEfficiency: 85
+    fuelEfficiency: 85
+    mguKPower: 85
+    mguKEfficiency: 84
+    mguKHeatControl: 83
+    energyHarvestRate: 84
+    energyDeployRate: 84
+    energyStorageCapacity: 83
+    energyManagementAI: 83
+    ersModeFlexibility: 83
+    modeSwitchingSpeed: 81
+    driverCarSynchronization: 83
+  chassis2026:
+    mechanicalGrip: 83
+    suspensionQuality: 82
+    chassisStiffness: 81
+    weightDistribution: 82
+    brakingStability: 82
+    traction: 83
+  systems2026:
+    coolingEfficiency: 83
+    coolingReliability: 84
+    thermalControl: 83
+    controlSystems: 85
+  reliability2026:
+    overallReliability: 84
+    iceReliability: 84
+    mguKReliability: 84
+    ersReliability: 84
+    activeAeroReliability: 84
+    gearboxReliability: 84
+    electronicsReliability: 84
+  country: Switzerland
+  baseCity: Hinwil

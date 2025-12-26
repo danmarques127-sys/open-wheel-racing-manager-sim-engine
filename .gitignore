@@ -1,0 +1,35 @@
+﻿# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Unity meta cache
+*.tmp
+# Optional Unity UI Toolkit cache/schema
+UIElementsSchema/
+
+# Optional local tooling config
+.vsconfig

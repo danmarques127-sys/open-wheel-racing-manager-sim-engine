@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e4845c8e346a74289c1010fd7fbaee, type: 3}
+  m_Name: TeamProfile_RacingBulls
+  m_EditorClassIdentifier: Assembly-CSharp::TeamProfileData
+  teamId: racingbulls
+  teamName: Visa Cash App Racing Bulls Formula One Team
+  teamLogo: {fileID: -4459957675728504964, guid: e211427df0fd51f4b8a07ba93afa37d3, type: 3}
+  primaryColor: {r: 0, g: 0.16078432, b: 0.24705882, a: 1}
+  secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+  themeIntensity: 0.85
+  shortHistory: "Racing Bulls, formerly known as Toro Rosso and AlphaTauri, was established
+    in 2006 as Red Bull\u2019s junior and development team. Based in Faenza, Italy,
+    the team serves as a proving ground for emerging talent and technical experimentation.
+    Its most notable achievement came in 2008, when Sebastian Vettel secured a historic
+    victory at the Italian Grand Prix, marking the team\u2019s first win. Racing
+    Bulls\u2019 legacy lies in driver development, adaptability, and its role as
+    a strategic extension of Red Bull Racing."
+  constructorsTitles: 0
+  driversTitles: 0
+  currentDrivers:
+  - {fileID: 11400000, guid: e457c2d3f247f2247a4ba631ccf91bd6, type: 2}
+  - {fileID: 11400000, guid: b98cbd9fc7ae2bb4aaa4aa2fe261f62b, type: 2}

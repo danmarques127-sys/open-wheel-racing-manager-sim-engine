@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2206b8437c731ef4d84e1e171aaf0ddf, type: 3}
+  m_Name: Driver_franco_colapinto
+  m_EditorClassIdentifier: Assembly-CSharp::F1Manager.Data.DriverData
+  driverId: franco_colapinto
+  firstName: Franco
+  lastName: Colapinto
+  displayName: Franco Colapinto
+  age: 22
+  nationality: Argentinian
+  overall: 79
+  racePace: 79
+  qualifying: 78
+  consistency: 75
+  aggression: 73
+  tireManagement: 75
+  wetSkill: 74
+  morale: 72
+  potential: 93
+  role: 0
+  careerStatus: 0
+  status: 0
+  contract:
+    status: 1
+    teamId: alpine
+    salaryPerYear: 4
+    signingBonus: 0
+    contractStartYear: 2026
+    contractEndYear: 2029
+    hasBuyoutClause: 0
+    buyoutValue: 0
+    allowEarlyTermination: 1
+    teamCanTerminate: 1
+    driverCanTerminate: 0
+    terminationFeeTeam: 0
+    terminationFeeDriver: 0
+    terminationFeeScalesWithRemainingYears: 1
+    terminationFeePerRemainingYearMultiplier: 1
+    optionType: 0
+    optionDecisionYear: 0
+    optionExtraYears: 1
+    optionHasSalaryIncrease: 1
+    optionSalaryIncreasePct: 0.1
+    bonusPerWin: 0
+    bonusPerPodium: 0
+    bonusPerPoint: 0
+    loyalty: 50
+    ambition: 50
+    riskTolerance: 50
+  portrait: {fileID: 0}

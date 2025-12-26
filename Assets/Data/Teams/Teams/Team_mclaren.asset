@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d5c3a0eca2ee74783a542e2ec49610, type: 3}
+  m_Name: Team_mclaren
+  m_EditorClassIdentifier: Assembly-CSharp::TeamData
+  teamId: mclaren
+  displayName: McLaren Formula 1 Team
+  shortName: McLaren
+  primaryColor: {r: 1, g: 1, b: 1, a: 1}
+  startingBudgetMillions: 310
+  hqLevel: 5
+  aeroDepartment: 5
+  powerUnitDept: 4
+  strategyTeam: 5
+  aero: 90
+  powerUnit: 88
+  chassis: 90
+  reliability: 88
+  aero2026:
+    downforceLowSpeed: 50
+    downforceMediumSpeed: 50
+    downforceHighSpeed: 50
+    dragEfficiency: 86
+    aeroEfficiency: 92
+    dirtyAirResistance: 84
+    activeAeroEfficiency: 100
+    activeAeroResponseTime: 90
+    activeAeroStability: 88
+  powerUnit2026:
+    icePower: 86
+    iceEfficiency: 86
+    fuelEfficiency: 87
+    mguKPower: 90
+    mguKEfficiency: 88
+    mguKHeatControl: 88
+    energyHarvestRate: 88
+    energyDeployRate: 90
+    energyStorageCapacity: 87
+    energyManagementAI: 88
+    ersModeFlexibility: 90
+    modeSwitchingSpeed: 88
+    driverCarSynchronization: 90
+  chassis2026:
+    mechanicalGrip: 90
+    suspensionQuality: 88
+    chassisStiffness: 88
+    weightDistribution: 88
+    brakingStability: 88
+    traction: 90
+  systems2026:
+    coolingEfficiency: 86
+    coolingReliability: 88
+    thermalControl: 86
+    controlSystems: 88
+  reliability2026:
+    overallReliability: 87
+    iceReliability: 86
+    mguKReliability: 87
+    ersReliability: 87
+    activeAeroReliability: 86
+    gearboxReliability: 87
+    electronicsReliability: 87
+  country: United Kingdom
+  baseCity: Woking

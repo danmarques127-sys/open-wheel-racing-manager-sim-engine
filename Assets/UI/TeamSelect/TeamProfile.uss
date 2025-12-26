@@ -1,0 +1,331 @@
+/* =========================
+   ULTRA SAFE USS (Unity 6)
+   - sem multi-layer background-image
+   - sem rotate/translate/transition/cursor/box-shadow
+   ========================= */
+
+.root {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0d10;
+    position: relative;
+}
+
+/* =========================
+   THEME BACKGROUND
+   (gradiente será aplicado via C# em runtime no themeBg)
+   ========================= */
+
+.theme-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #0b0d10;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.theme-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: rgba(0,0,0,0.32);
+}
+
+/* =========================
+   PANEL
+   ========================= */
+
+.panel {
+    width: 1120px;
+    max-width: 96%;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 26px;
+    padding-bottom: 22px;
+
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+
+    background-color: rgba(12, 14, 18, 0.93);
+
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+
+    border-left-color: rgba(255,255,255,0.14);
+    border-right-color: rgba(255,255,255,0.12);
+    border-top-color: rgba(255,255,255,0.14);
+    border-bottom-color: rgba(255,255,255,0.12);
+
+    flex-direction: column;
+}
+
+/* =========================
+   HEADER ROW (logo | name)
+   ========================= */
+
+.header-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    flex-direction: row;
+    align-items: center;
+}
+
+.team-logo {
+    width: 160px;
+    height: 72px;
+    -unity-background-scale-mode: scale-to-fit;
+    opacity: 0.98;
+}
+
+.header-right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.team-name {
+    color: rgba(244,245,247,0.96);
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    -unity-font-style: bold;
+}
+
+.team-subtitle {
+    color: rgba(244,245,247,0.62);
+    font-size: 11px;
+    letter-spacing: 1.1px;
+    margin-top: 3px;
+}
+
+.divider {
+    height: 1px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    background-color: rgba(255,255,255,0.08);
+}
+
+/* =========================
+   MAIN GRID (3 columns)
+   ========================= */
+
+.main-grid {
+    margin-top: 6px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+/* 25% | 50% | 25% */
+.col-left {
+    width: 25%;
+    flex-direction: column;
+}
+
+.col-center {
+    width: 50%;
+    margin-left: 14px;
+    margin-right: 14px;
+    flex-direction: column;
+}
+
+.col-right {
+    width: 25%;
+    flex-direction: column;
+}
+
+/* =========================
+   CARDS (base)
+   ========================= */
+
+.card {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    margin-bottom: 14px;
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+
+    background-color: rgba(10, 12, 16, 0.78);
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+
+    border-left-color: rgba(255,255,255,0.12);
+    border-right-color: rgba(255,255,255,0.10);
+    border-top-color: rgba(255,255,255,0.12);
+    border-bottom-color: rgba(255,255,255,0.10);
+
+    flex-direction: column;
+}
+
+.card-title {
+    color: rgba(244,245,247,0.86);
+    font-size: 11px;
+    letter-spacing: 1.4px;
+    -unity-font-style: bold;
+    margin-bottom: 10px;
+}
+
+.card-label {
+    color: rgba(244,245,247,0.55);
+    font-size: 10px;
+    letter-spacing: 1.4px;
+}
+
+.card-value {
+    color: rgba(244,245,247,0.92);
+    font-size: 18px;
+    -unity-font-style: bold;
+    margin-top: 4px;
+}
+
+.card-text {
+    color: rgba(244,245,247,0.72);
+    font-size: 12px;
+    white-space: normal;
+    margin-top: 8px;
+}
+
+/* history card mais “alto” */
+.card-history {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+/* HISTORY TEXT */
+.history-text {
+    color: rgba(244,245,247,0.72);
+    font-size: 12px;
+    white-space: normal;
+}
+
+/* =========================
+   DRIVERS (scroll + list)
+   ========================= */
+
+.drivers-scroll {
+    height: 330px; /* ajuste livre */
+}
+
+.drivers-list {
+    flex-direction: column;
+}
+
+/* linhas de drivers (o C# cria e aplica essa classe) */
+.driver-row {
+    height: 56px;
+    margin-top: 10px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+    background-color: rgba(255,255,255,0.06);
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+
+    border-left-color: rgba(255,255,255,0.12);
+    border-right-color: rgba(255,255,255,0.10);
+    border-top-color: rgba(255,255,255,0.12);
+    border-bottom-color: rgba(255,255,255,0.10);
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.driver-name {
+    color: rgba(244,245,247,0.92);
+    font-size: 14px;
+    -unity-font-style: bold;
+}
+
+.driver-meta {
+    color: rgba(244,245,247,0.60);
+    font-size: 10px;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.footer-row {
+    margin-top: 6px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* BUTTONS */
+.btn {
+    -unity-font-style: bold;
+    font-size: 12px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+
+    background-color: rgba(255,255,255,0.07);
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+
+    border-left-color: rgba(255,255,255,0.14);
+    border-right-color: rgba(255,255,255,0.10);
+    border-top-color: rgba(255,255,255,0.14);
+    border-bottom-color: rgba(255,255,255,0.10);
+
+    color: rgba(244,245,247,0.92);
+}
+
+.btn:hover {
+    background-color: rgba(255,255,255,0.10);
+
+    border-left-color: rgba(255,255,255,0.18);
+    border-right-color: rgba(255,255,255,0.14);
+    border-top-color: rgba(255,255,255,0.18);
+    border-bottom-color: rgba(255,255,255,0.14);
+}
+
+.btn.primary {
+    background-color: rgba(255,255,255,0.10);
+}

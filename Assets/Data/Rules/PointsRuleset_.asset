@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd9ac7b20c8a2e4db945d7a32d31ad2, type: 3}
+  m_Name: PointsRuleset_
+  m_EditorClassIdentifier: Assembly-CSharp::F1Manager.Data.PointsRuleset
+  rulesetName: F1 2026 (default)
+  racePoints: 19000000120000000f0000000c0000000a0000000800000006000000040000000200000001000000
+  sprintPoints: 0800000007000000060000000500000004000000030000000200000001000000
+  fastestLapEnabled: 1
+  fastestLapBonus: 1
+  fastestLapTopNRequired: 1
+  fastestLapTopN: 10

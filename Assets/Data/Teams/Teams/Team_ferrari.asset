@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d5c3a0eca2ee74783a542e2ec49610, type: 3}
+  m_Name: Team_ferrari
+  m_EditorClassIdentifier: Assembly-CSharp::TeamData
+  teamId: ferrari
+  displayName: Scuderia Ferrari HP Formula 1
+  shortName: Scuderia Ferrari
+  primaryColor: {r: 0.8627451, g: 0, b: 0, a: 1}
+  startingBudgetMillions: 315
+  hqLevel: 5
+  aeroDepartment: 5
+  powerUnitDept: 5
+  strategyTeam: 4
+  aero: 89
+  powerUnit: 90
+  chassis: 88
+  reliability: 85
+  aero2026:
+    downforceLowSpeed: 52
+    downforceMediumSpeed: 50
+    downforceHighSpeed: 48
+    dragEfficiency: 85
+    aeroEfficiency: 90
+    dirtyAirResistance: 82
+    activeAeroEfficiency: 90
+    activeAeroResponseTime: 88
+    activeAeroStability: 86
+  powerUnit2026:
+    icePower: 90
+    iceEfficiency: 85
+    fuelEfficiency: 84
+    mguKPower: 89
+    mguKEfficiency: 87
+    mguKHeatControl: 86
+    energyHarvestRate: 87
+    energyDeployRate: 88
+    energyStorageCapacity: 86
+    energyManagementAI: 86
+    ersModeFlexibility: 88
+    modeSwitchingSpeed: 86
+    driverCarSynchronization: 88
+  chassis2026:
+    mechanicalGrip: 88
+    suspensionQuality: 87
+    chassisStiffness: 86
+    weightDistribution: 87
+    brakingStability: 86
+    traction: 88
+  systems2026:
+    coolingEfficiency: 86
+    coolingReliability: 86
+    thermalControl: 85
+    controlSystems: 86
+  reliability2026:
+    overallReliability: 85
+    iceReliability: 84
+    mguKReliability: 85
+    ersReliability: 85
+    activeAeroReliability: 84
+    gearboxReliability: 85
+    electronicsReliability: 85
+  country: Italy
+  baseCity: Maranello

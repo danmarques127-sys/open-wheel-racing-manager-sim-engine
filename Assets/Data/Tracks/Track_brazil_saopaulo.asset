@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed4d14188667114592ec23fb20af672, type: 3}
+  m_Name: Track_brazil_saopaulo
+  m_EditorClassIdentifier: Assembly-CSharp::F1Manager.Data.TrackData
+  trackId: brazil_saopaulo
+  trackName: "Interlagos (Aut\xF3dromo Jos\xE9 Carlos Pace)"
+  country: Brazil
+  city: "S\xE3o Paulo"
+  timezoneId: America/Sao_Paulo
+  type: 1
+  lapLengthKm: 4.309
+  laps: 71
+  weekendFormat: 1
+  sprintLapsOverride: 24
+  tireWear: 1
+  rainChance: 45
+  safetyCarChance: 35
+  vscChance: 25
+  redFlagChance: 4
+  pitLaneTimeLossSec: 22
+  pitStopBaseSec: 2.25
+  pitStopVarSec: 0.4
+  overtakeAid: 1
+  overtakingEase: 0.59999996
+  overtakeAidStrength: 1.1
+  overtakeZones: 2
+  difficulty: 7
+  asphaltAbrasiveness: 1.05
+  trackGripBase: 1.02
+  trackEvolutionRate: 0.9
+  kerbAggression: 0.79999995
+  powerSensitivity: 0.55
+  aeroSensitivity: 0.7
+  brakeSeverity: 0.55
+  tyreEnergy: 0.7
+  coolingDifficulty: 0.55
+  avgAirTempC: 24
+  trackTempBiasC: 10
+  altitudeMeters: 760
+  corners: 15
+  slowCorners: 6
+  mediumCorners: 7
+  fastCorners: 2
+  longestStraightMeters: 760
+  bumpiness: 0.45
+  tireProfiles:
+  - compound: 0
+    expectedLifeLaps: 24
+    lifeVarianceLaps: 2
+    paceDeltaSec: 0.6
+    warmupRate: 0.85
+    degradationRate: 0.85
+    minRainPercent: 0
+    maxRainPercent: 20
+  - compound: 1
+    expectedLifeLaps: 18
+    lifeVarianceLaps: 2
+    paceDeltaSec: 0
+    warmupRate: 1
+    degradationRate: 1
+    minRainPercent: 0
+    maxRainPercent: 20
+  - compound: 2
+    expectedLifeLaps: 12
+    lifeVarianceLaps: 2
+    paceDeltaSec: -0.55
+    warmupRate: 1.25
+    degradationRate: 1.25
+    minRainPercent: 0
+    maxRainPercent: 15
+  - compound: 3
+    expectedLifeLaps: 16
+    lifeVarianceLaps: 3
+    paceDeltaSec: 1.1
+    warmupRate: 1.1
+    degradationRate: 1.05
+    minRainPercent: 15
+    maxRainPercent: 70
+  - compound: 4
+    expectedLifeLaps: 14
+    lifeVarianceLaps: 3
+    paceDeltaSec: 2.1
+    warmupRate: 1.05
+    degradationRate: 1.1
+    minRainPercent: 55
+    maxRainPercent: 100

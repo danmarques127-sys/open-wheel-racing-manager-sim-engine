@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e4845c8e346a74289c1010fd7fbaee, type: 3}
+  m_Name: TeamProfile_Alpine
+  m_EditorClassIdentifier: Assembly-CSharp::TeamProfileData
+  teamId: alpine
+  teamName: Alpine F1 Team
+  teamLogo: {fileID: -8245012183058367903, guid: 6406a5c7e994a5c4287971554dc502d9, type: 3}
+  primaryColor: {r: 0, g: 0.5647059, b: 1, a: 1}
+  secondaryColor: {r: 1, g: 0.16470589, b: 0.40784314, a: 1}
+  themeIntensity: 0.85
+  shortHistory: "Alpine represents the Formula One identity of Renault, a manufacturer
+    deeply embedded in the sport\u2019s history. Renault first entered Formula One
+    in 1977 and achieved major success as both a constructor and engine supplier.
+    Based in Enstone, United Kingdom, Alpine carries forward this legacy under a
+    modern brand. The team has won two Constructors\u2019 Championships and two Drivers\u2019
+    Championships, with Fernando Alonso securing both titles in 2005 and 2006. The
+    Renault R25 is remembered as a landmark car that ended Ferrari\u2019s era of
+    dominance. Alpine\u2019s legacy combines engineering innovation, manufacturer
+    expertise, and a proud competitive history."
+  constructorsTitles: 2
+  driversTitles: 2
+  currentDrivers:
+  - {fileID: 11400000, guid: 66eee3d2d461bb4439d9826f6fb2e36e, type: 2}
+  - {fileID: 11400000, guid: 6401912ee76ce1c4fa9276f59cff8547, type: 2}

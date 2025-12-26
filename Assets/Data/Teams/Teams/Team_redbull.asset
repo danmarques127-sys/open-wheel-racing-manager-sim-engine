@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d5c3a0eca2ee74783a542e2ec49610, type: 3}
+  m_Name: Team_redbull
+  m_EditorClassIdentifier: Assembly-CSharp::TeamData
+  teamId: redbull
+  displayName: Oracle Red Bull Racing
+  shortName: Red Bull Racing
+  primaryColor: {r: 1, g: 1, b: 1, a: 1}
+  startingBudgetMillions: 320
+  hqLevel: 5
+  aeroDepartment: 5
+  powerUnitDept: 5
+  strategyTeam: 5
+  aero: 92
+  powerUnit: 90
+  chassis: 88
+  reliability: 86
+  aero2026:
+    downforceLowSpeed: 48
+    downforceMediumSpeed: 50
+    downforceHighSpeed: 52
+    dragEfficiency: 88
+    aeroEfficiency: 94
+    dirtyAirResistance: 85
+    activeAeroEfficiency: 94
+    activeAeroResponseTime: 92
+    activeAeroStability: 90
+  powerUnit2026:
+    icePower: 88
+    iceEfficiency: 87
+    fuelEfficiency: 88
+    mguKPower: 92
+    mguKEfficiency: 90
+    mguKHeatControl: 90
+    energyHarvestRate: 90
+    energyDeployRate: 92
+    energyStorageCapacity: 88
+    energyManagementAI: 90
+    ersModeFlexibility: 92
+    modeSwitchingSpeed: 90
+    driverCarSynchronization: 92
+  chassis2026:
+    mechanicalGrip: 92
+    suspensionQuality: 90
+    chassisStiffness: 88
+    weightDistribution: 90
+    brakingStability: 90
+    traction: 92
+  systems2026:
+    coolingEfficiency: 88
+    coolingReliability: 90
+    thermalControl: 88
+    controlSystems: 88
+  reliability2026:
+    overallReliability: 88
+    iceReliability: 87
+    mguKReliability: 88
+    ersReliability: 88
+    activeAeroReliability: 87
+    gearboxReliability: 88
+    electronicsReliability: 88
+  country: United Kingdom
+  baseCity: Milton Keyes

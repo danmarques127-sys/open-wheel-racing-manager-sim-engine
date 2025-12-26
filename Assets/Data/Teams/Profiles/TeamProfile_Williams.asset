@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e4845c8e346a74289c1010fd7fbaee, type: 3}
+  m_Name: TeamProfile_Williams
+  m_EditorClassIdentifier: Assembly-CSharp::TeamProfileData
+  teamId: williams
+  teamName: Atlassian Williams Racing
+  teamLogo: {fileID: -6160389445955863492, guid: 07345e751d6fb9a449bf346cb95ba047, type: 3}
+  primaryColor: {r: 0, g: 0.3529412, b: 1, a: 1}
+  secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+  themeIntensity: 0.85
+  shortHistory: "Founded in 1977 by Sir Frank Williams and Patrick Head, Williams
+    Racing is one of the most successful independent teams in Formula One history.
+    Based in Grove, United Kingdom, Williams achieved extraordinary success through
+    engineering excellence and efficient leadership. The team has earned nine Constructors\u2019
+    Championships and seven Drivers\u2019 Championships, working with legendary drivers
+    such as Nigel Mansell, Alain Prost, and Damon Hill. The Williams FW14B (1992)
+    is considered one of the most technologically advanced cars ever built, featuring
+    active suspension that revolutionized vehicle dynamics. Williams\u2019 legacy
+    is defined by innovation, resilience, and competitive independence."
+  constructorsTitles: 9
+  driversTitles: 7
+  currentDrivers:
+  - {fileID: 11400000, guid: e00898cd49dd98344b299b730c64c6b4, type: 2}
+  - {fileID: 11400000, guid: 181ce6857ad301c4fa9544b2a55892c6, type: 2}

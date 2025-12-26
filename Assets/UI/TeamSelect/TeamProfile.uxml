@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:VisualElement class="root">
+
+    <!-- ✅ IMPORTANTE: carregar o USS -->
+    <ui:Style src="TeamProfile.uss" />
+
+    <!-- Background theme (gradiente via C# depois) -->
+    <ui:VisualElement name="themeBg" class="theme-bg" />
+    <ui:VisualElement name="themeOverlay" class="theme-overlay" />
+
+    <!-- Main panel -->
+    <ui:VisualElement class="panel">
+
+      <!-- HEADER / TABLE ROW -->
+      <ui:VisualElement class="header-row">
+
+        <!-- LEFT: Logo -->
+        <ui:VisualElement class="header-left">
+          <!-- ✅ scaleMode para evitar corte -->
+          <ui:Image name="teamLogo" class="team-logo" scaleMode="ScaleToFit" />
+        </ui:VisualElement>
+
+        <!-- RIGHT: Team name + subtitle -->
+        <ui:VisualElement class="header-right">
+          <ui:Label name="teamName" text="TEAM NAME" class="team-name" />
+          <ui:Label name="teamSubtitle" text="Team Profile" class="team-subtitle" />
+        </ui:VisualElement>
+
+      </ui:VisualElement>
+
+      <!-- Divider -->
+      <ui:VisualElement class="divider" />
+
+      <!-- MAIN GRID (3 columns) -->
+      <ui:VisualElement class="main-grid">
+
+        <!-- LEFT COLUMN: Stats / Info -->
+        <ui:VisualElement class="col-left">
+
+          <ui:VisualElement class="card">
+            <ui:Label text="CONSTRUCTORS TITLES" class="card-label" />
+            <ui:Label name="constructorsTitles" text="—" class="card-value" />
+          </ui:VisualElement>
+
+          <ui:VisualElement class="card">
+            <ui:Label text="DRIVERS TITLES" class="card-label" />
+            <ui:Label name="driversTitles" text="—" class="card-value" />
+          </ui:VisualElement>
+
+          <!-- Extra info -->
+          <ui:VisualElement name="extraInfo" class="card extra-info">
+            <ui:Label text="TEAM INFO" class="card-label" />
+            <ui:Label name="teamInfoText" text="—" class="card-text" />
+          </ui:VisualElement>
+
+        </ui:VisualElement>
+
+        <!-- CENTER COLUMN: History -->
+        <ui:VisualElement class="col-center">
+          <ui:VisualElement class="card card-history">
+            <ui:Label text="HISTORY" class="card-title" />
+            <ui:Label name="historyText" text="—" class="history-text" />
+          </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- RIGHT COLUMN: Drivers -->
+        <ui:VisualElement class="col-right">
+          <ui:VisualElement class="card">
+            <ui:Label text="CURRENT DRIVERS" class="card-title" />
+            <ui:ScrollView name="driversScroll" class="drivers-scroll">
+              <ui:VisualElement name="driversList" class="drivers-list" />
+            </ui:ScrollView>
+          </ui:VisualElement>
+        </ui:VisualElement>
+
+      </ui:VisualElement>
+
+      <!-- FOOTER -->
+      <ui:VisualElement class="footer-row">
+        <ui:Button name="btnBack" text="Back" class="btn" />
+        <ui:Button name="btnConfirm" text="Confirm Team" class="btn primary" />
+      </ui:VisualElement>
+
+    </ui:VisualElement>
+  </ui:VisualElement>
+</ui:UXML>

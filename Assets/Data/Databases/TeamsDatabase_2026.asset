@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36b8f812be4dc624eb311b9a160aec11, type: 3}
+  m_Name: TeamsDatabase_2026
+  m_EditorClassIdentifier: Assembly-CSharp::TeamsDatabase
+  teams:
+  - {fileID: 11400000, guid: 1ae9ae3eb13ef1d42a75c19a07023ddc, type: 2}
+  - {fileID: 11400000, guid: f22a3ad5684d25043ae6721c57cf4b64, type: 2}
+  - {fileID: 11400000, guid: 4bf97be4835ce5340ba0019c9d46ba77, type: 2}
+  - {fileID: 11400000, guid: 438036c77bbbc3e4294302b9ee3ce253, type: 2}
+  - {fileID: 11400000, guid: 2d2c35be23ccf4c469a5c0bbfc1db44e, type: 2}
+  - {fileID: 11400000, guid: 116dcfba947763347bbcbf85d8c79d16, type: 2}
+  - {fileID: 11400000, guid: 2b25db515521f42419cb7b4d106d07f6, type: 2}
+  - {fileID: 11400000, guid: 426233f26ae7e52499e787470fe922a7, type: 2}
+  - {fileID: 11400000, guid: 0774ccdc4b602ba4d9ca78f88031dc1e, type: 2}
+  - {fileID: 11400000, guid: 60bd97dd924dc304a95ef4df4efc1da5, type: 2}
+  - {fileID: 11400000, guid: 40af64c22168cda4397937cd8b3cc389, type: 2}

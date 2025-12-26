@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2206b8437c731ef4d84e1e171aaf0ddf, type: 3}
+  m_Name: Driver_liam_lawson
+  m_EditorClassIdentifier: Assembly-CSharp::F1Manager.Data.DriverData
+  driverId: liam_lawson
+  firstName: Liam
+  lastName: Lawson
+  displayName: Liam Lawson
+  age: 23
+  nationality: New Zealanders
+  overall: 82
+  racePace: 82
+  qualifying: 83
+  consistency: 80
+  aggression: 70
+  tireManagement: 78
+  wetSkill: 78
+  morale: 72
+  potential: 86
+  role: 0
+  careerStatus: 0
+  status: 0
+  contract:
+    status: 1
+    teamId: racingbulls
+    salaryPerYear: 8
+    signingBonus: 0
+    contractStartYear: 2026
+    contractEndYear: 2027
+    hasBuyoutClause: 0
+    buyoutValue: 0
+    allowEarlyTermination: 1
+    teamCanTerminate: 1
+    driverCanTerminate: 0
+    terminationFeeTeam: 0
+    terminationFeeDriver: 0
+    terminationFeeScalesWithRemainingYears: 1
+    terminationFeePerRemainingYearMultiplier: 1
+    optionType: 0
+    optionDecisionYear: 0
+    optionExtraYears: 1
+    optionHasSalaryIncrease: 1
+    optionSalaryIncreasePct: 0.1
+    bonusPerWin: 0
+    bonusPerPodium: 0
+    bonusPerPoint: 0
+    loyalty: 50
+    ambition: 50
+    riskTolerance: 50
+  portrait: {fileID: 0}

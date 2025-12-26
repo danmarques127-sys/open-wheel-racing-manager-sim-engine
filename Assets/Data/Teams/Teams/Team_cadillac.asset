@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d5c3a0eca2ee74783a542e2ec49610, type: 3}
+  m_Name: Team_cadillac
+  m_EditorClassIdentifier: Assembly-CSharp::TeamData
+  teamId: cadillac
+  displayName: Cadillac F1 Team
+  shortName: Cadillac
+  primaryColor: {r: 1, g: 1, b: 1, a: 1}
+  startingBudgetMillions: 270
+  hqLevel: 4
+  aeroDepartment: 3
+  powerUnitDept: 3
+  strategyTeam: 3
+  aero: 50
+  powerUnit: 50
+  chassis: 50
+  reliability: 50
+  aero2026:
+    downforceLowSpeed: 46
+    downforceMediumSpeed: 46
+    downforceHighSpeed: 44
+    dragEfficiency: 77
+    aeroEfficiency: 81
+    dirtyAirResistance: 75
+    activeAeroEfficiency: 81
+    activeAeroResponseTime: 79
+    activeAeroStability: 79
+  powerUnit2026:
+    icePower: 84
+    iceEfficiency: 84
+    fuelEfficiency: 84
+    mguKPower: 84
+    mguKEfficiency: 83
+    mguKHeatControl: 82
+    energyHarvestRate: 83
+    energyDeployRate: 83
+    energyStorageCapacity: 82
+    energyManagementAI: 82
+    ersModeFlexibility: 82
+    modeSwitchingSpeed: 80
+    driverCarSynchronization: 82
+  chassis2026:
+    mechanicalGrip: 82
+    suspensionQuality: 81
+    chassisStiffness: 80
+    weightDistribution: 81
+    brakingStability: 81
+    traction: 82
+  systems2026:
+    coolingEfficiency: 82
+    coolingReliability: 83
+    thermalControl: 82
+    controlSystems: 82
+  reliability2026:
+    overallReliability: 84
+    iceReliability: 84
+    mguKReliability: 84
+    ersReliability: 84
+    activeAeroReliability: 84
+    gearboxReliability: 84
+    electronicsReliability: 84
+  country: USA
+  baseCity: Fishers

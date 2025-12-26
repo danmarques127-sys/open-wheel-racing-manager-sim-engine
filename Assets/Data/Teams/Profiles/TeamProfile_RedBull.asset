@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e4845c8e346a74289c1010fd7fbaee, type: 3}
+  m_Name: TeamProfile_RedBull
+  m_EditorClassIdentifier: Assembly-CSharp::TeamProfileData
+  teamId: redbull
+  teamName: Oracle Red Bull Racing
+  teamLogo: {fileID: -3765810118636629652, guid: ecc09ccfebc54e040a254303e98dab56, type: 3}
+  primaryColor: {r: 0.11764706, g: 0.25490198, b: 1, a: 1}
+  secondaryColor: {r: 0.94509804, g: 1, b: 0.06274509, a: 1}
+  themeIntensity: 0.85
+  shortHistory: "Red Bull Racing was founded in 2005 by Dietrich Mateschitz, transforming
+    the former Jaguar Racing team into a modern Formula One powerhouse. Based in
+    Milton Keynes, United Kingdom, Red Bull revolutionized team culture by blending
+    innovation, youth development, and aggressive performance philosophy. The team
+    achieved championship success in two dominant eras, most notably with Sebastian
+    Vettel, who won four consecutive Drivers\u2019 Championships (2010\u20132013),
+    and later with Max Verstappen, who led Red Bull into a new era of regulation
+    mastery. The RB19 (2023) is widely regarded as one of the most dominant cars
+    in F1 history, achieving record-breaking win percentages. Red Bull\u2019s identity
+    is defined by aerodynamic innovation, bold leadership, and relentless competitive
+    ambition."
+  constructorsTitles: 6
+  driversTitles: 8
+  currentDrivers:
+  - {fileID: 11400000, guid: de6825ab651e5f14f8484444a35326f4, type: 2}
+  - {fileID: 11400000, guid: 69125d9007b796349b8001ac73ce8dc8, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e4845c8e346a74289c1010fd7fbaee, type: 3}
+  m_Name: TeamProfile_Haas
+  m_EditorClassIdentifier: Assembly-CSharp::TeamProfileData
+  teamId: haas
+  teamName: TGR Haas F1 Team
+  teamLogo: {fileID: -4928059967606952507, guid: e44d16a359927b14fa3ba57ac064cf77, type: 3}
+  primaryColor: {r: 0.7137255, g: 0.7294118, b: 0.7411765, a: 1}
+  secondaryColor: {r: 0.88235295, g: 0.023529412, b: 0, a: 1}
+  themeIntensity: 0.85
+  shortHistory: "Haas F1 Team was founded in 2016 by American entrepreneur Gene Haas,
+    becoming the first American-owned Formula One team in decades. Based in Kannapolis,
+    USA, with operational facilities in Europe, Haas adopted a unique business model
+    focused on technical partnerships and efficiency. While the team has not won
+    championships, it achieved notable success early in its tenure, including consistent
+    points finishes and strong midfield performances. Haas\u2019 identity is rooted
+    in pragmatic engineering, financial discipline, and steady long-term participation
+    in Formula One."
+  constructorsTitles: 0
+  driversTitles: 0
+  currentDrivers:
+  - {fileID: 11400000, guid: 0be0a3ca54cb44d4caaa4ce23921bded, type: 2}
+  - {fileID: 11400000, guid: 41c47e709fca2e845b8c7a73898c82e7, type: 2}

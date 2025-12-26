@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e4845c8e346a74289c1010fd7fbaee, type: 3}
+  m_Name: TeamProfile_Cadillac
+  m_EditorClassIdentifier: Assembly-CSharp::TeamProfileData
+  teamId: cadillac
+  teamName: Cadillac F1 Team
+  teamLogo: {fileID: 166915540348838730, guid: 4024bd5ac33bdee419e88d4fb5500a65, type: 3}
+  primaryColor: {r: 0, g: 0.15294118, b: 0.3019608, a: 1}
+  secondaryColor: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
+  themeIntensity: 0.85
+  shortHistory: "Ferrari was founded by Enzo Ferrari in 1939, with its first Formula
+    One entry in 1950, making it the only team to compete in every season of the
+    championship. Based in Maranello, Italy, Ferrari embodies the fusion of racing
+    passion, engineering heritage, and national identity. The team holds the all-time
+    records for most Constructors\u2019 Championships (16) and most Drivers\u2019
+    Championships (15). Its most successful driver is Michael Schumacher, who won
+    five consecutive world titles (2000\u20132004) with Ferrari, restoring the team\u2019s
+    dominance after a long title drought. Among its many legendary cars, the Ferrari
+    F2004 is widely regarded as the greatest Ferrari ever built, combining reliability,
+    speed, and aerodynamic efficiency to dominate the 2004 season. Ferrari\u2019s
+    legacy is defined not only by statistics, but by its emotional bond with fans
+    worldwide and its uncompromising commitment to racing excellence."
+  constructorsTitles: 0
+  driversTitles: 0
+  currentDrivers:
+  - {fileID: 11400000, guid: de1b55b6b56134147af90cd5ca210e97, type: 2}
+  - {fileID: 11400000, guid: a61ac147cd8ca214e96111ec11d12661, type: 2}

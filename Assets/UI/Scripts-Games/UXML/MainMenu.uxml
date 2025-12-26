@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+
+    <ui:VisualElement class="root">
+
+        <!-- VIDEO BACKGROUND (RenderTexture aplicado via script) -->
+        <ui:Image name="VideoBG" class="video-bg" />
+
+        <!-- Overlay por cima do vídeo (escurece pra leitura) -->
+        <ui:VisualElement name="VideoOverlay" class="video-overlay" />
+
+        <!-- OPTIONAL EXTRA LAYERS -->
+        <ui:VisualElement class="telemetry-grid" />
+        <ui:VisualElement class="vignette" />
+
+        <!-- MAIN PANEL -->
+        <ui:VisualElement class="panel">
+
+            <!-- HEADER -->
+            <ui:VisualElement class="header">
+
+                <ui:VisualElement class="header-left">
+
+                    <!-- LOGO (coloque aqui a logo pelo UI Builder no campo Image) -->
+                    <ui:Image name="logoImage" class="logo" />
+
+                    <ui:VisualElement class="brand-stack">
+                        <ui:Label text="F1 MANAGER" class="brand-title" />
+                        <ui:Label text="TELEMETRY EDITION" class="brand-subtitle" />
+                    </ui:VisualElement>
+
+                </ui:VisualElement>
+
+                <ui:VisualElement class="header-right">
+
+                    <!-- Se você quiser tirar TODO vermelho: remova a classe "live" no USS,
+                         ou troque no USS pra cinza. No UXML deixei como está. -->
+                    <ui:VisualElement class="status-chip live">
+                        <ui:VisualElement class="status-dot" />
+                        <ui:Label text="LIVE DATA" class="status-text" />
+                    </ui:VisualElement>
+
+                    <ui:VisualElement class="status-chip">
+                        <ui:Label text="60 FPS" class="status-text" />
+                    </ui:VisualElement>
+
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+
+            <ui:VisualElement class="divider" />
+
+            <!-- META -->
+            <ui:VisualElement class="meta">
+
+                <ui:VisualElement class="meta-left">
+                    <ui:Label text="SEASON" class="meta-label" />
+                    <ui:Label text="2026" class="meta-value" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+
+            <!-- MENU -->
+            <ui:VisualElement class="menu">
+
+                <!-- NOTE:
+                     Eu removi classes extras ("primary/danger/clickable") pra você controlar tudo no USS.
+                     Os NAMES continuam iguais pro script de clique funcionar. -->
+
+                <ui:VisualElement name="btnNewGame" class="menu-item">
+                    <ui:VisualElement class="btn-left">
+                        <ui:Label text="New Game" class="btn-text" />
+                        <ui:Label text="Start a new career • Choose team • Calendar" class="btn-subtext" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="btn-right">
+                        <ui:VisualElement class="chev" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement name="btnLoadGame" class="menu-item">
+                    <ui:VisualElement class="btn-left">
+                        <ui:Label text="Load Game" class="btn-text" />
+                        <ui:Label text="Continue your last season" class="btn-subtext" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="btn-right">
+                        <ui:VisualElement class="chev" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement name="btnSettings" class="menu-item">
+                    <ui:VisualElement class="btn-left">
+                        <ui:Label text="Settings" class="btn-text" />
+                        <ui:Label text="Graphics • Audio • Controls • UI" class="btn-subtext" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="btn-right">
+                        <ui:VisualElement class="chev" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement name="btnCredits" class="menu-item">
+                    <ui:VisualElement class="btn-left">
+                        <ui:Label text="Credits" class="btn-text" />
+                        <ui:Label text="Team • Tools • References" class="btn-subtext" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="btn-right">
+                        <ui:VisualElement class="chev" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement name="btnQuit" class="menu-item">
+                    <ui:VisualElement class="btn-left">
+                        <ui:Label text="Quit" class="btn-text" />
+                        <ui:Label text="Exit to desktop" class="btn-subtext" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="btn-right">
+                        <ui:VisualElement class="chev" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+
+            <!-- FOOTER -->
+            <ui:VisualElement class="footer">
+                <ui:VisualElement class="footer-left">
+                    <ui:Label text="© 2026 • Telemetry UI Prototype" class="footer-text" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="footer-right">
+                    <ui:Label text="v0.1.0" class="footer-text" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+
+        <!-- gloss por cima de tudo -->
+        <ui:VisualElement class="gloss" />
+
+    </ui:VisualElement>
+</ui:UXML>
