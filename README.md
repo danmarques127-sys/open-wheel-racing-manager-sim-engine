@@ -11,12 +11,13 @@ core simulation is robust and stable.
 
 ## 🎯 Project Vision
 
-The goal of this project is to build a **modern open-wheel racing manager simulation engine** inspired by classic manager games, but architected with:
+The goal of this project is to build a **modern open-wheel racing manager simulation engine**
+inspired by classic manager games, architected with:
 
 - Clear system boundaries
 - Strong data-driven design
 - Season-to-season evolution
-- Extensibility for future features (regulation changes, AI-generated narratives, new series)
+- Extensibility for future features (rule changes, AI-generated narratives, new series)
 
 This repository represents the **foundation layer** of the game.
 
@@ -127,7 +128,7 @@ The orchestration layer:
 
 ## 🛠️ Tech Stack
 
-- **Engine:** Unity
+- **Runtime / Host:** Unity
 - **Language:** C#
 - **Architecture:** Data-driven, system-oriented
 - **Data Layer:** ScriptableObjects
@@ -148,18 +149,28 @@ Assets/
     └─ Test/
 ---
 
-## 📌 Disclaimer (Important)
+## 🧪 What This Project Demonstrates
+
+- Simulation-first system design
+- Clean separation of data, logic, and orchestration
+- Long-term thinking over short-term visuals
+- Transferable architecture patterns for management and simulation games
+
+---
+
+## 📌 Disclaimer
 
 This is an **original prototype** and is **not affiliated with Formula 1, FIA, teams, drivers, or Liberty Media**.  
-No official trademarks, logos, or licensed assets are intended for use in this repository.
+No official trademarks, logos, or licensed assets are intended for use.
 
 ---
 
 ## 👤 Author
 
-Dangelo Marques  
+**Dangelo Marques**  
 Full Stack Developer / Game Systems Prototyping  
 Focus: data-driven systems, simulation engines, and manager-game architectures.
 
-This project is licensed under the **MIT License**.  
+Licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for details.
+
