@@ -1,124 +1,185 @@
-# Open Wheel Racing Manager — Simulation Engine
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0B0B,50:FF3C00,100:0B0B0B&height=260&section=header&text=Open%20Wheel%20Racing%20Manager&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
+</p>
 
-A **simulation-first** racing manager engine built in **Unity (C#)**, focused on
-data-driven systems, long-term extensibility, and clean architecture.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=700&color=FF3C00&center=true&vCenter=true&width=900&lines=Simulation-First+Racing+Manager+Engine;Data-Driven+Systems+%7C+Long-Term+Architecture;Built+Before+UI.+By+Design.;Designed+for+Evolution%2C+Not+Demos." />
+</p>
 
-This project is designed as a **management and simulation backbone**, not a UI-driven prototype.
-All gameplay layers (UI, visuals, presentation) are intentionally deferred until the
-core simulation is robust and stable.
+<h3 align="center">
+  Simulation Engine • Manager Game Backbone • Unity (C#)
+</h3>
+
+<p align="center">
+  Architecture before visuals. Systems before UI.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ARCHITECTURE%20PHASE-FF3C00?style=for-the-badge">
+  <img src="https://img.shields.io/badge/FOCUS-SIMULATION-black?style=for-the-badge">
+  <img src="https://img.shields.io/badge/UI-DEFERRED-white?style=for-the-badge">
+</p>
+
+---
+
+## 🧠 What Is This Project?
+
+**Open Wheel Racing Manager** is a **simulation-first racing management engine**
+built in **Unity (C#)**.
+
+This repository contains the **core simulation backbone** of a manager game —
+not a UI prototype, not a visual demo.
+
+All presentation layers (UI, graphics, audio) are **intentionally deferred**
+until the simulation reaches a stable, extensible foundation.
+
+This project is about **systems, rules, and evolution**.
 
 ---
 
 ## 🎯 Project Vision
 
-The goal of this project is to build a **modern open-wheel racing manager simulation engine**
-inspired by classic manager games, architected with:
+The long-term vision is to build a **modern open-wheel racing manager**
+inspired by classic management games, but architected with
+**contemporary engineering principles**.
 
-- Clear system boundaries
-- Strong data-driven design
-- Season-to-season evolution
-- Extensibility for future features (rule changes, AI-generated narratives, new series)
+The engine is designed to support:
 
-This repository represents the **foundation layer** of the game.
+- Multi-season progression
+- Regulation changes
+- Long-term team and driver evolution
+- Extensible rulesets
+- AI-generated narratives and events
+- Expansion into multiple racing series
+
+This repository represents the **foundation layer** of that vision.
 
 ---
 
 ## 🚧 Project Status
 
-This project is currently in the **architecture and simulation-core phase**.
+**Current Phase:** Simulation Core & Architecture
 
-### Current focus:
+### Current Focus
 - Defining the simulation backbone
-- Designing core systems before any UI
-- Establishing clean data + logic separation
+- Designing systems *before* UI
+- Establishing strict data + logic separation
+- Ensuring long-term extensibility
 
-### Explicitly out of scope (for now):
+### Explicitly Out of Scope (By Design)
 - User Interface
 - Graphics / Visuals
 - Audio
-- Input systems
+- Player Input
 
-This is intentional and by design.
+Skipping these now avoids architectural debt later.
 
 ---
 
-## 🗺️ Roadmap
+## 🧩 Simulation Philosophy
 
-Development is tracked publicly using **GitHub Issues and Milestones**.
+> *A manager game lives or dies by its systems.*
 
-### Current Milestone
-**MVP Simulation Core (v0.1)**  
-Focus: a full season can be simulated via logs.
+This engine follows these principles:
+
+- **Simulation-first** (logic is the product)
+- **Data-driven** over hard-coded behavior
+- **Deterministic where possible**
+- **Presentation-agnostic**
+- **Expandable without rewrites**
+
+UI will eventually **consume** the simulation — never control it.
+
+---
+
+## 🗺️ Roadmap & Milestones
+
+Development is tracked using **GitHub Issues and Milestones**.
+
+### 🔹 Milestone v0.1 — MVP Simulation Core
+Goal: a full season can be simulated end-to-end via logs.
 
 Planned systems:
 - Calendar System
 - Race Weekend Model
 - Results & Points Engine
-- Standings
+- Standings System
 - Season Flow Orchestrator
 
-### Future Milestones
-- **Simulation Depth Expansion (v0.2)**
-- **Documentation & Stability (v0.3)**
+---
+
+### 🔹 Milestone v0.2 — Simulation Depth
+- Regulation variants
+- Tie-breaker rules
+- Expanded race formats
+- Data validation & consistency checks
+
+---
+
+### 🔹 Milestone v0.3 — Stability & Documentation
+- Full system documentation
+- Architecture diagrams
+- Refactoring for clarity
+- Test coverage expansion
 
 ---
 
 ## 🧠 Architecture Overview
 
-This project follows a **simulation-first architecture**, where systems are designed
-to function independently of any presentation layer.
+This project follows a **system-oriented, simulation-first architecture**.
 
-> Status: Draft / In progress
+> Status: In design / iterating
 
-### Core Principles
-- **Data-driven design** using ScriptableObjects
-- **Clear separation** between data, logic, and orchestration
-- **Deterministic simulation** where possible
-- **No UI dependency** in core systems
+### Core Architectural Principles
+- **ScriptableObjects** for data definitions
+- **Pure logic systems** with no UI dependency
+- **Explicit orchestration layer**
+- **Clear ownership of responsibilities**
+- **Minimal hidden coupling**
 
 ---
 
-## 🧩 Main Systems (Planned)
+## 🧩 Core Systems (Planned & In Progress)
 
-### Calendar System
-Defines the season structure:
+### 📅 Calendar System
+Defines the structure of a season:
 - Number of rounds
-- Order of events
-- Weekend types (normal, sprint, future extensions)
+- Event ordering
+- Weekend types (standard, sprint, future formats)
 
-Acts as the backbone for all seasonal logic.
+Acts as the backbone for all seasonal progression.
 
 ---
 
-### Race Weekend Model
-Defines how a race weekend is composed:
+### 🏁 Race Weekend Model
+Defines how a weekend is composed:
 - Sessions (practice, qualifying, sprint, race)
 - Session order driven by rulesets
 - Extensible for new formats
 
 ---
 
-### Results & Points Engine
+### 🧮 Results & Points Engine
 Responsible for:
 - Processing session results
-- Applying rulesets
+- Applying scoring rules
 - Awarding driver and team points
 
 Fully data-driven and regulation-aware.
 
 ---
 
-### Standings System
+### 📊 Standings System
 Maintains championship state:
 - Driver standings
 - Team standings
-- Tie-breaker logic (extensible)
+- Tie-breaker logic
 
-Updated incrementally after each scoring session.
+Updated incrementally after each scoring event.
 
 ---
 
-### Season Flow Controller
+### ⏱️ Season Flow Controller
 The orchestration layer:
 - Advances time through the season
 - Coordinates calendar, weekends, results, and standings
@@ -128,11 +189,13 @@ The orchestration layer:
 
 ## 🛠️ Tech Stack
 
-- **Runtime / Host:** Unity
+- **Engine:** Unity
 - **Language:** C#
-- **Architecture:** Data-driven, system-oriented
+- **Architecture:** System-oriented, data-driven
 - **Data Layer:** ScriptableObjects
-- **Persistence:** Planned (JSON-based, no Unity object references)
+- **Persistence:** Planned (JSON-based, engine-agnostic)
+
+No UI frameworks. No shortcuts.
 
 ---
 
@@ -145,32 +208,49 @@ Assets/
     │  ├─ Calendar/
     │  ├─ Season/
     │  ├─ Standings/
-    │  └─ Results/
-    └─ Test/
----
+    │  ├─ Results/
+    │  └─ Rulesets/
+    ├─ Orchestration/
+    └─ Tests/
 
 ## 🧪 What This Project Demonstrates
 
-- Simulation-first system design
-- Clean separation of data, logic, and orchestration
-- Long-term thinking over short-term visuals
-- Transferable architecture patterns for management and simulation games
+- Simulation-first game architecture  
+- Clean separation of systems and data  
+- Long-term thinking over quick visuals  
+- Transferable patterns for:
+  - Manager games
+  - Strategy simulations
+  - Data-heavy systems
 
 ---
 
-## 📌 Disclaimer
+## ⚠️ Disclaimer
 
-This is an **original prototype** and is **not affiliated with Formula 1, FIA, teams, drivers, or Liberty Media**.  
-No official trademarks, logos, or licensed assets are intended for use.
+This is an **original simulation project**.
+
+It is **not affiliated with Formula 1, FIA, teams, drivers, or Liberty Media**.  
+No official trademarks, logos, or licensed assets are used or intended.
 
 ---
 
 ## 👤 Author
 
-**Dangelo Marques**  
-Full Stack Developer / Game Systems Prototyping  
-Focus: data-driven systems, simulation engines, and manager-game architectures.
+**Deangelo Marques**  
+Full-Stack Developer • Game Systems & Simulation Architect  
+
+**Focus:**
+- Data-driven systems  
+- Simulation engines  
+- Long-term architecture for manager games  
 
 Licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for details.
 
+<p align="center">
+  <i>Systems first. Speed later.</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF3C00,100:0B0B0B&height=120&section=footer" />
+</p>
