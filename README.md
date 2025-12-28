@@ -182,8 +182,6 @@ Single entry point:
 - coordinates calendar, weekends, results, standings
 - produces log-driven simulation output (initially)
 
-<br/>
-
 ## 🛠️ Tech Stack
 
 - **Engine:** Unity
@@ -192,11 +190,8 @@ Single entry point:
 - **Data Layer:** ScriptableObjects (definitions)
 - **Persistence:** planned (JSON-based, engine-agnostic)
 
-<br/>
-
 ## 📁 Project Structure (High-Level)
 
-```text
 Assets/
   _Project/
     Runtime/
@@ -215,3 +210,56 @@ Assets/
       PlayMode/
 Packages/
 ProjectSettings/
+
+---
+
+## 🧪 What This Repository Demonstrates
+
+- **Simulation-first game architecture**
+- **Clear separation of data and logic**
+- **Extensible rule modeling** (regulation-ready)
+- **Orchestration-driven lifecycle**  
+  *(season → events → results → standings)*
+- **Transferable architectural patterns** for:
+  - Manager games
+  - Strategy simulations
+  - Data-heavy systems
+
+---
+
+## ⚠️ Legal / Trademark Disclaimer
+
+This is an **original simulation project**.
+
+It is **not affiliated with Formula 1, FIA, racing teams, drivers, or Liberty Media**.  
+No official trademarks, logos, or licensed assets are used or intended.
+
+---
+
+## 👤 Author
+
+**Deangelo Marques**  
+*Full-Stack Developer • Game Systems & Simulation Architect*
+
+### Focus Areas
+- Data-driven systems
+- Simulation engines
+- Long-term architecture for management games
+
+Licensed under the **MIT License**.  
+See the [`LICENSE`](LICENSE) file for details.
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF1E00,50:0B0B0B,100:F5C400&height=3&section=footer" />
+</p>
+
+<p align="center">
+  <i>Systems first. Speed later.</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0B0B,35:FF1E00,70:F5C400,100:0B0B0B&height=140&section=footer" />
+</p>
+
